@@ -19,6 +19,24 @@
             // 2: 10 people
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
+            int cost = 0;
+
+Console.WriteLine("Enter the number of people in the group");
+int NumOfPeople = Convert.ToInt32(Console.ReadLine());
+
+if (NumOfPeople < 6)
+{
+
+    cost = NumOfPeople * 15;
+}
+else
+{
+    cost = (NumOfPeople * 15) - 5;
+}
+
+Console.WriteLine("Your total charge is £" + cost);
+
+            
 
         }
     }
