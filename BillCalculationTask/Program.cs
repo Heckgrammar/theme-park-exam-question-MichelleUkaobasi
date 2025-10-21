@@ -22,19 +22,19 @@
             int cost = 0;
 
 Console.WriteLine("Enter the number of people in the group");
-int NumOfPeople = Convert.ToInt32(Console.ReadLine());
+int NumOfPeople = Convert.ToInt32(Console.ReadLine());   // Mark A
 
-if (NumOfPeople < 6)
+if (NumOfPeople < 6)  // Mark D  + B
 {
 
-    cost = NumOfPeople * 15;
+    cost = NumOfPeople * 15; // Mark C
 }
 else
 {
-    cost = (NumOfPeople * 15) - 5;
+    cost = (NumOfPeople * 15) - 5;   // Mark E
 }
 
-Console.WriteLine("Your total charge is £" + cost);
+Console.WriteLine("Your total charge is £" + cost);   // Mark F
 
             
 
